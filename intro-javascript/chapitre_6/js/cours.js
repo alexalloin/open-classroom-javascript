@@ -26,3 +26,19 @@ console.log(sport.charAt(0)); // affiche T
 console.log(sport[0]); // affiche T
 console.log(sport.charAt(5)); // affiche "-"
 console.log(sport[5]); // affiche "-"
+
+var prenom = "Odile"; // 5 caracteres
+console.log(prenom[0]);
+console.log(prenom[1]);
+console.log(prenom[2]);
+console.log(prenom[3]);
+console.log(prenom[4]);
+
+// for (var i = 0; i < maChaine.length; i++){}
+// maChaine[i] renvoie le ieme caractere de ma chaime//
+
+var prenom = "Odile";
+for (var i =0; i < prenom.length; i++){
+    console.log(prenom[i]);
+}
+
